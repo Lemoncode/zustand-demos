@@ -1,5 +1,4 @@
-import { useShallow } from "zustand/shallow";
-import { useCounter } from "../stores/counter.store";
+//import { useCounter } from "../stores/counter.store";
 
 export function CounterDisplay() {
   //const { count, id } = useCounter();
@@ -7,12 +6,14 @@ export function CounterDisplay() {
   //const id = useCounter((state) => state.id);
   //const count = useCounter((state) => state.count);
 
+  /*
   const { count, id } = useCounter(
     useShallow((state) => ({
       count: state.count,
       id: state.id,
     }))
   );
+  */
 
   console.log(">> CounterDisplay render");
 
