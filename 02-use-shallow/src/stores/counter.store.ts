@@ -8,7 +8,6 @@ type Store = {
   setAlias: (alias: string) => void;
 };
 
-/*
 export const useCounter = create<Store>((set) => ({
   id: "125-3434-3432",
   alias: "Office",
@@ -16,6 +15,3 @@ export const useCounter = create<Store>((set) => ({
   inc: () => set((state) => ({ count: state.count + 1 })),
   setAlias: (alias: string) => set({ alias }),
 }));
-*/
-
-//useStoreWithEqualityFn
