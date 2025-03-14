@@ -4,7 +4,7 @@ import { useCounter } from "../stores/counter.store";
 export const CounterEditAliasComponent = () => {
   const { alias, setAlias } = useCounter(
     useShallow((state) => ({
-      alias: state.alias,
+      alias: state.counter.alias,
       setAlias: state.setAlias,
     }))
   );
